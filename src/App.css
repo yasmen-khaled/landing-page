@@ -1,0 +1,230 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.mash {
+    height: 600px !important;
+    width: 100px;
+    left: 250px;
+    position: absolute;
+   }
+
+
+.land {
+    height:  600px !important;
+    width: 100px;
+    background-color: #3353be;
+}
+
+
+.cover {
+    position: absolute;
+   
+    right: 350px; /* Corrected from 'left: 5;' to 'left: 5px;' */
+    width: 200px;
+    color: #f7f7f7e3;
+    padding: 1px;
+    margin: 20px;
+    align-content: center;
+    font-family: system-ui;
+    font-size: larger;
+  
+}
+
+
+.lujain {
+    height: 900px !important;
+    width: 200px;
+    right: 250px;
+    position: absolute;
+}
+
+
+.maram {
+    height: 650px !important;
+    width: 100px;
+    left: 250px;
+    position: absolute;
+}
+
+.story2 {
+
+    height: 700px !important;
+    width: 100px;
+    left: 400px;
+
+}
+
+
+
+body {
+    background-color: #1b1b1b;
+    height: 50px;
+}
+
+.container {
+max-width: 100x;
+margin: 1 auto;
+padding: 6rem;
+text-align: center;
+
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgb(99, 57, 119);
+    color: #ffffff ;
+    margin-top: 50px;
+}
+
+.navbar {
+    background-color: #3356c9;
+    overflow: hidden;
+   }
+   
+   .navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+   }
+   
+   .nav-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   }
+   
+   .nav-item a:hover {
+    background-color: #111;
+   }
+   
+   /* Responsive design */
+   @media screen and (max-width: 600px) {
+    .navbar-nav {
+       flex-direction: column;
+    }
+   }
+   
+
+
+   .title {
+    position: absolute;
+    top: 90px;
+    right: 350px; /* Corrected from 'left: 5;' to 'left: 5px;' */
+    width: 200px;
+    height: 100px;
+
+    
+   }
+   
+    h1 {
+    color: #fff;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+    
+   
+
+
+   .yasmen {
+    position: absolute;
+    top: -100px;
+    right: 350px; /* Corrected from 'left: 5;' to 'left: 5px;' */
+    width: 200px;
+    color: #9eeb46dc;
+    padding: 1px;
+    margin: 20px;
+    align-content: center;
+    font-family: system-ui;
+    font-size: larger;
+    margin-top: -50px;
+    
+  
+   }
+
+   .lujaindes {
+    position: absolute;
+    height: 600px;
+    top: -100px;
+    left: 350px; /* Corrected from 'left: 5;' to 'left: 5px;' */
+    width: 200px;
+    color: #ff8239dc;
+    font-family: system-ui;
+    font-size: larger;
+    margin-top: -150px;
+   }
+
+   .maram2 {
+    position: absolute;
+    top: -100px;
+    right: 350px; /* Corrected from 'left: 5;' to 'left: 5px;' */
+    width: 200px;
+    color: #14c8ffe3;
+    padding: 1px;
+    margin: 20px;
+    align-content: center;
+    font-family: system-ui;
+    font-size: larger;
+    margin-top: -150px;
+
+   }
+
+
+  
+.title3 {
+    margin: 40px;
+    padding: 80px;
+    font-size: 100px;
+    color: #ffffff;
+
+}
+
+
+.des {
+    
+    /* font-family: system-ui; */
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+    /* overflow: hidden;
+    white-space: nowrap;
+    border-right: .15em solid orange; /* Optional: Adds a cursor-like effect */
+    /* width: 0;
+    animation: typing 7s forwards; Adjust the duration as needed */ 
+}
+
+
+/* @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+   }
+   
+
+   @keyframes blink {
+    from, to { border-color: transparent; }
+     50% { border-color: rgb(206, 128, 252); }
+   }
+   
+   .des {
+       animation: typing 7s steps(40, end) forwards, blink .75s step-end infinite;
+   }
+    */
+
+
+
+
+
+
+
+
+
+
+
+    
