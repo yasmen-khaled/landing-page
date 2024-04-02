@@ -4,6 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import '../main.js'
 import '../line.js'
+import '../nav.js'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

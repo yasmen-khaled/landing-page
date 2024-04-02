@@ -14,7 +14,7 @@ export  default function Model(props) {
   const { nodes, materials } = useGLTF('/maram.gltf')
   return (
     <group {...props} dispose={null}>
-      <group scale={0.2}>
+      <group scale={0.1}>
         <mesh geometry={nodes.pTorus3_lambert3_0.geometry} material={materials.lambert3} position={[1.362, -4.582, -2.508]} rotation={[0.641, -0.667, 2.026]} scale={[0.119, 0.116, 0.116]} />
         <mesh geometry={nodes.pCylinder20_lambert3_0.geometry} material={materials.lambert3} position={[1.441, -4.226, -2.703]} rotation={[0.947, -0.498, 0.586]} scale={[0.189, 0.189, 0.149]} />
         <mesh geometry={nodes.pCube27_lambert3_0.geometry} material={materials.lambert3} position={[4.612, -1.659, 0.903]} scale={[0.378, 1, 0.281]} />

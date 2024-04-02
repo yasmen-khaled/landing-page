@@ -16,5 +16,12 @@ hiddenElements.forEach((el) => observer.observe(el));
 
 
 
+const scrollUp = () => {
+    window.scrollBy({ top: -200, behavior: 'smooth' });
+};
+
+const scrollDown = () => {
+    window.scrollBy({ top: 200, behavior: 'smooth' });
+};
 
 

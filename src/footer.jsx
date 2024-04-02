@@ -4,6 +4,7 @@ function Footer() {
     return (
         <footer>
             <p> copyright lymonada-2024</p>
+            
         </footer>
     )
 }
